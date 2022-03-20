@@ -1,5 +1,5 @@
 import "./App.css";
-import Heading from "../Heading/";
+import Header from "../Header/";
 // import TextInput from "../TextInput/";
 import ProjectCard from "../ProjectCard/";
 
@@ -10,7 +10,7 @@ import socPic from "../../images/soq.png";
 function App() {
   return (
     <div className="App">
-      <Heading text="Lorcan McCullagh"></Heading>
+      <Header text="Lorcan McCullagh"></Header>
 
       <div className="main">
         <br></br>

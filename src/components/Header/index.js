@@ -2,7 +2,7 @@ import React from "react";
 
 import lorcan from "../../images/lorcan.jpg"
 
-export function Heading({ text }) {
+export function Header({ text }) {
   return (
     <div className="app-header">
     <div>
@@ -15,4 +15,4 @@ export function Heading({ text }) {
   );
 }
 
-export default Heading;
+export default Header;
