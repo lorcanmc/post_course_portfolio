@@ -31,12 +31,12 @@ function App() {
             name="School of quizzes"
             desc="A quiz app to test coding knowledge - Group Project"
             blurb="A platform for other School Of Code bootcampers to challenge what they have learnt"
-            link="http://alotify-app.netlify.app"
+            link="https://school-of-quizzes.netlify.app/"
           ></ProjectCard>
           <ProjectCard
             image={bleeterPic}
             name="Bleeter"
-            desc="A social app connect with others - Personal Project"
+            desc="A social app to connect with others - Personal Project"
             blurb="A simple project creating a site where users can post and read posts by others. Designed to look like twitter"
             link="https://bleeter-app.netlify.app"
           ></ProjectCard>
