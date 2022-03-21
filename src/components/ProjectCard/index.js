@@ -22,12 +22,13 @@ export function ProjectCard({ image, name, desc, blurb, link }) {
         <Typography variant="body2" color="text.secondary">
           {desc}
         </Typography>
+        <br></br>
         <Typography variant="body2" color="text.secondary">
           {blurb}
         </Typography>
       </CardContent>
       <CardActions className="card-button">
-        <Button size="small" href={link}>see more</Button>
+        <Button variant="contained" size="small" href={link}>see more</Button>
       </CardActions>
     </Card>
   );
