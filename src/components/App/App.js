@@ -23,7 +23,7 @@ function App() {
             image={familiaPic}
             name="Familia"
             desc="A socia media app for families - Group Project"
-            blurb="Designed to create a closed social media site where families would be safe to post private pictures and info to other family members. Built over 4 weeks in a team of 6 students. "
+            blurb="Designed to create a closed social media site where families would be safe to post private pictures and info to other family members. Built over 4 weeks in a team of 6 students"
             link="https://ukla.netlify.app"
           ></ProjectCard>
           <ProjectCard
