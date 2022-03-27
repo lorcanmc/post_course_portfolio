@@ -1,6 +1,7 @@
 import "./App.css";
+import { motion } from "framer-motion";
+
 import Header from "../Header/";
-// import TextInput from "../TextInput/";
 import ProjectCard from "../ProjectCard/";
 
 import alotifyPic from "../../images/alotify.png";
@@ -12,7 +13,13 @@ import hangmanPic from "../../images/hangman.png";
 function App() {
   return (
     <div className="App">
-      <Header text="Lorcan McCullagh"></Header>
+      <motion.header
+        initial={{ y: -350 }}
+        animate={{ y: 0 }}
+        transition={{ delay: 0.5, type: "spring", stiffness: 30 }}
+      >
+        <Header text="Lorcan McCullagh"></Header>
+      </motion.header>
 
       <div className="main">
         <br></br>
@@ -60,7 +67,6 @@ function App() {
             blurb="Inspired by the success of wordle, I created a hangman game that tracks your progress and responds to your guesses"
             link="https://reacthangmangame.netlify.app/"
           ></ProjectCard>
-         
         </div>
       </div>
     </div>
