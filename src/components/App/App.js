@@ -22,6 +22,24 @@ function App() {
       </motion.header>
 
       <div className="main">
+        <h2 className="react-header">React Projects</h2>
+        <br></br>
+        <div className="card-container">
+          <ProjectCard
+            image={alotifyPic}
+            name="Alotify"
+            desc="A music exploration app - Personal Project"
+            blurb="Designed to recreate the look and feel of Spotify with the functionality to find your favourite songs and add them to your favourites"
+            link="http://alotify-app.netlify.app"
+          ></ProjectCard>
+          <ProjectCard
+            image={hangmanPic}
+            name="Hangman"
+            desc="A simple game - Personal Project"
+            blurb="Inspired by the success of wordle, I created a hangman game that tracks your progress and responds to your guesses"
+            link="https://reacthangmangame.netlify.app/"
+          ></ProjectCard>
+        </div>
         <br></br>
         <h2 className="react-header">Full Stack Projects</h2>
         <br></br>
@@ -50,24 +68,6 @@ function App() {
         </div>
 
         <br></br>
-        <h2 className="react-header">React Projects</h2>
-        <br></br>
-        <div className="card-container">
-          <ProjectCard
-            image={alotifyPic}
-            name="Alotify"
-            desc="A music exploration app - Personal Project"
-            blurb="Designed to recreate the look and feel of Spotify with the functionality to find your favourite songs and add them to your favourites"
-            link="http://alotify-app.netlify.app"
-          ></ProjectCard>
-          <ProjectCard
-            image={hangmanPic}
-            name="Hangman"
-            desc="A simple game - Personal Project"
-            blurb="Inspired by the success of wordle, I created a hangman game that tracks your progress and responds to your guesses"
-            link="https://reacthangmangame.netlify.app/"
-          ></ProjectCard>
-        </div>
       </div>
     </div>
   );
