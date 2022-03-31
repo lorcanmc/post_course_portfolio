@@ -84,9 +84,9 @@
   border-radius: 5px;
   font-size: 20px;
 
-	border: none;
-	cursor: pointer;
-	outline: inherit;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .section2 {
@@ -95,4 +95,24 @@
 
 .section3 {
   background-color: #c547ff;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.actions > * {
+  margin: 10px;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
+
 import ReactFullpage from "@fullpage/react-fullpage";
 import Header from "../Header";
 import ProjectCard from "../ProjectCard/";
@@ -10,6 +12,7 @@ import bleeterPic from "../../images/bleeter.png";
 import hangmanPic from "../../images/hangman.png";
 
 export function Fullpage() {
+
   return (
     <ReactFullpage
       //fullpage options
@@ -26,6 +29,15 @@ export function Fullpage() {
                   onClick={() => fullpageApi.moveSectionDown()}
                 >
                   Projects
+                </button>
+
+                <button
+                  className="homepagebutton"
+                  onClick={() =>
+                    (window.location = "https://github.com/lorcanmc")
+                  }
+                >
+                  My Github
                 </button>
               </div>
             </div>
