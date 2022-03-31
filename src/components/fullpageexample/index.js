@@ -12,7 +12,6 @@ import bleeterPic from "../../images/bleeter.png";
 import hangmanPic from "../../images/hangman.png";
 
 export function Fullpage() {
-
   return (
     <ReactFullpage
       //fullpage options
@@ -59,6 +58,14 @@ export function Fullpage() {
                   blurb="Inspired by the success of wordle, I created a hangman game that tracks your progress and responds to your guesses"
                   link="https://reacthangmangame.netlify.app/"
                 ></ProjectCard>
+              </div>
+              <div className="homepagebuttons">
+                <button
+                  className="homepagebutton"
+                  onClick={() => fullpageApi.moveSectionDown()}
+                >
+                  Full Stack Projects
+                </button>
               </div>
             </div>
             <div className="section section3">
