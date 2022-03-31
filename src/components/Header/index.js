@@ -4,16 +4,13 @@ import lorcan from "../../images/lorcan.jpg";
 
 export function Header({ text }) {
   return (
-    <div className="app-header">
-      <div className="app-header-row">
-        <div className="me"></div>
-
-        <h1 className="heading">{text}</h1>
-
-        <div>
-          <img className="me" src={lorcan} alt="me" />
-        </div>
+    <div>
+      <div>
+        <img className="me" src={lorcan} alt="me" />
       </div>
+
+      <h1 className="heading">{text}</h1>
+
       <div className="introduction">
         <p className="introduction">
           I'm a software developer who loves to create. Formerly a warehouse

@@ -1,25 +1,26 @@
 import "./App.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
-import Header from "../Header/";
+
 import ProjectCard from "../ProjectCard/";
-
 import alotifyPic from "../../images/alotify.png";
 import familiaPic from "../../images/familia.png";
 import socPic from "../../images/soq.png";
 import bleeterPic from "../../images/bleeter.png";
 import hangmanPic from "../../images/hangman.png";
+import { Fullpage } from "../fullpageexample";
 
 function App() {
   return (
     <div className="App">
-      <motion.header
+      {/* <motion.header
         initial={{ y: -350 }}
         animate={{ y: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 30 }}
       >
         <Header text="Lorcan McCullagh"></Header>
-      </motion.header>
+      </motion.header> */}
+      <Fullpage></Fullpage>
 
       <div className="main">
         <h2 className="react-header">React Projects</h2>

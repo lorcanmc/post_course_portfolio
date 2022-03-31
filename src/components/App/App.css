@@ -2,11 +2,12 @@
   font-size: 15px;
   background: linear-gradient(rgb(240, 247, 255), rgb(255, 255, 255));
   text-align: center;
+  color: white;
 }
 
 .app-header {
-  background-color: #282c34;
-  min-height: 20vh;
+  background-color: #ff5f47;
+  height: 100vh;
   padding: 40px;
   font-size: calc(10px + 2vmin);
 }
@@ -15,7 +16,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-between; */
 }
 
 .introduction {
@@ -27,7 +28,7 @@
 
 .me {
   /* border: rgb(0, 94, 5) 2px solid; */
-  width: 150px;
+  width: 200px;
   border-radius: 100px;
 }
 
@@ -63,4 +64,31 @@
   position: absolute;
   left: 5px;
   bottom: 10px;
+}
+
+/* react fullpage */
+
+.section {
+  /* background-color: aquamarine; */
+}
+
+.homepagebuttons {
+  margin: 10px 0;
+}
+
+.homepagebutton {
+  background: white;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #375592;
+  border-radius: 5px;
+  font-size: 20px;
+
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.section2 {
+  background-color: #4791ff;
 }
