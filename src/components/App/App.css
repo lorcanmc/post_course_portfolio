@@ -89,6 +89,20 @@
   outline: inherit;
 }
 
+.mainbutton {
+  background: white;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #375592;
+  border-radius: 5px;
+  font-size: 20px;
+
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
 .section2 {
   background-color: #4791ff;
 }

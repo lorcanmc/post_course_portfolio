@@ -25,6 +25,14 @@ export function Fullpage() {
               <div className="homepagebuttons">
                 <button
                   className="homepagebutton"
+                  onClick={() =>
+                    (window.open("https://ukla.netlify.app"))
+                  }
+                >
+                  My Team Project
+                </button>
+                <button
+                  className="mainbutton"
                   onClick={() => fullpageApi.moveSectionDown()}
                 >
                   Projects
@@ -33,7 +41,7 @@ export function Fullpage() {
                 <button
                   className="homepagebutton"
                   onClick={() =>
-                    (window.location = "https://github.com/lorcanmc")
+                    (window.open("https://github.com/lorcanmc"))
                   }
                 >
                   My Github
