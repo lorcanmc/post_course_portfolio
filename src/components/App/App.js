@@ -1,5 +1,5 @@
 import "./App.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import Menu from "../Menu";
 import { Fullpage } from "../Fullpage";

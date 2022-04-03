@@ -1,6 +1,5 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
 
 import ReactFullpage from "@fullpage/react-fullpage";
 import Header from "../Header";
@@ -17,6 +16,7 @@ export function Fullpage() {
       //fullpage options
       //   licenseKey={"YOUR_KEY_HERE"}
       scrollingSpeed={1000} /* Options here */
+      scrollBar={true}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
